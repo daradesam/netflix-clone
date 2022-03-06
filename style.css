@@ -1,0 +1,168 @@
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: black;
+}
+.div1{
+    background-image: url("netflix-bg.jpg");
+    width: 100%;
+    height: 700px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    padding-top: 20px;
+}
+.header a{
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    padding: 8px 18px;
+    border-radius: 5px;
+}
+.text{
+    color: white;
+    text-align: center;
+
+}
+.text1, .text2{
+    color: white;
+    padding: 0 120px;
+}
+.centerContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     /* align-content: center; */
+    align-items: center;
+    margin-top: 100px;
+}
+.mail a{
+    padding: 10px 20px;
+}
+.div2, .div3, .div4, .div6{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border-top: 10px solid gray;
+}
+.div2, .div4{
+    height: 500px;
+}
+h2{
+    font-size: 50px;
+}
+h5{
+    font-size: larger;
+}
+.page2video{
+    position: relative;
+    top: -320px;
+    left: -45px;
+    padding: 0 120px;
+}
+.div2 img{
+    height: 400px;
+}
+.div2 video{
+    height: 215px;
+    padding: 0 120px;
+}
+.name{
+    display: flex;
+    height: 80px;
+    width: 400px;
+    position: relative;
+    bottom: 150px;
+    left: 100px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 0 10px;
+    background-color: black;
+}
+.nameIn{
+    width: 300px;
+    color: white;
+    padding-left: 10px;
+    position: relative;
+    line-height: 5px;
+}
+.nameIn p{
+    color: blue;
+}
+.page4video{
+    height: 210px;
+    position: relative;
+    left: 130px;
+    top: -440px;
+}
+.div5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border-top: 10px solid gray;
+    height: 500px;
+    
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    color: white;
+    background-color: rgb(46, 43, 43);
+    padding: 10px 30px;
+}
+.items{
+    border-bottom: 1px solid black;
+}
+.page6{
+    color: white;
+}
+.mail a{
+    background-color: red;
+    padding: 13px 40px;
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    margin-left: -5px;
+}
+.mail input{
+    height: 40px;
+    width: 400px;
+}
+.div6{
+    color: gray;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+    width: 70%;
+    line-height: 30px;
+}
+.footer caption{
+    text-align: left;
+    font-size: larger;
+    margin-bottom: 10px;
+}
+.selectBottom{
+    margin-top: 15px;
+    width: 120px;
+    padding: 15px 10px;
+    background-color: black;
+    color: white;
+
+}
+.text1{
+    align-self: center;
+}
+.mail{
+    display: flex;
+}
